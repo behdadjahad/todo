@@ -4,13 +4,13 @@ import sys
 
 
 def read_list():
-    file = open('/home/behdad/Documents/my_app/todolist.txt', 'r')
+    file = open('/todolist.txt', 'r')
     result = file.read()
     file.close()
     return result
 
 def write_list(content):
-    file = open('/home/behdad/Documents/my_app/todolist.txt', 'w')
+    file = open('/todolist.txt', 'w')
     file.write(content)
     file.close()
 
